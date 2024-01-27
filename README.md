@@ -11,5 +11,5 @@ These codes are for Tony Wu's Mannaheim MMM master's thesis.
 
 3. IPCA_empirical_GB.m,IPCA_empirical_GBGA.m ,stocklevelpca.m ,managedportPCA.m
 
-   *IPCA_empirical_GB.m,IPCA_empirical_GBGA.m are use for analyzing the performance of frestricted and unrestricted fundamental IPCA model, respectively.
-   *stocklevelpca.m ,managedportPCA.m are for analysis of PCA model at stock and managed-portfolio level
+   * IPCA_empirical_GB.m,IPCA_empirical_GBGA.m are use for analyzing the performance of frestricted and unrestricted fundamental IPCA model, respectively.
+   * stocklevelpca.m ,managedportPCA.m are for analysis of PCA model at stock and managed-portfolio level
