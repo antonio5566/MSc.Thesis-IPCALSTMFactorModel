@@ -35,4 +35,29 @@ These codes are for Tony Wu's Mannaheim MMM master's thesis.
    * IPCA_empirical_puremacro. reports the performance of macroeconomic features selected by LASSO regression w/o passing RNN
    * IPCA_empiricla_GBGDmacro.m reports the performance of the last hidden state
 
-8. 
+8. IPCA_empirical_GBGDFFtest.m, IPCA_empirical_GBGDmacrotest.m
+   
+   *  IPCA_empirical_GBGDFFtest.m, IPCA_empirical_GBGDmacrotest.m conduct the Wald-type test for FF factors, macroeconomic factors from last hidden state, macroeconomic factors from LASSO selection, respectively.
+
+9. Plotloadings.m, Plotmacroloadings.m
+    
+   * Plotloadings.m and Plotmacroloadings.m plot the weight of firm characteristics 
+    for fundamental IPCA and extended IPCA, respectively
+
+10.IPCA_empirical_GB_outofsample.m, ,IPCA_empirical_GBGDmacro_outofsample.m, tanpf.m, tanpfnext.m
+
+  * IPCA_empirical_GB_outofsample.m, ,IPCA_empirical_GBGDmacro_outofsample.m generated the out-of-sample performance (fits and Sharpe ratio) of fundamental and extended model
+  * tanpf.m, tanpfnext.m are served as function for outofsample estimation
+
+11.Table_OutofSample_Fits.m, Table_OutofSamplemacro_Fits.m
+
+  * Table_OutofSample_Fits.m, Table_OutofSamplemacro_Fits.m generate tables for out-of-sample performance of fundamental, extended IPCA, and FFC6 model
+
+12.individualtest.m, individualtest_macro.m 
+
+  *  individualtest.m, individualtest_macro.m serve as the Wald-type test for individual instruments for fundamental IPCA and extended IPCA, respectively
+
+
+
+
+
