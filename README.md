@@ -53,7 +53,7 @@ These codes are for Tony Wu's Mannaheim MMM master's thesis.
 
   * Table_OutofSample_Fits.m, Table_OutofSamplemacro_Fits.m generate tables for out-of-sample performance of fundamental, extended IPCA, and FFC6 model
 
-12.individualtest.m, individualtest_macro.m 
+12. individualtest.m, individualtest_macro.m 
 
   *  individualtest.m, individualtest_macro.m serve as the Wald-type test for individual instruments for fundamental IPCA and extended IPCA, respectively
 
