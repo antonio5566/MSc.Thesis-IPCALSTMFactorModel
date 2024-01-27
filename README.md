@@ -44,7 +44,7 @@ These codes are for Tony Wu's Mannaheim MMM master's thesis.
    * Plotloadings.m and Plotmacroloadings.m plot the weight of firm characteristics 
     for fundamental IPCA and extended IPCA, respectively
 
-10.IPCA_empirical_GB_outofsample.m, ,IPCA_empirical_GBGDmacro_outofsample.m, tanpf.m, tanpfnext.m
+10. IPCA_empirical_GB_outofsample.m, ,IPCA_empirical_GBGDmacro_outofsample.m, tanpf.m, tanpfnext.m
 
   * IPCA_empirical_GB_outofsample.m, ,IPCA_empirical_GBGDmacro_outofsample.m generated the out-of-sample performance (fits and Sharpe ratio) of fundamental and extended model
   * tanpf.m, tanpfnext.m are served as function for outofsample estimation
