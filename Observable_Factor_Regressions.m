@@ -21,7 +21,7 @@ ObsChoice = 'BS';% 'FF', 'SY', 'HXZ', 'BS'
 % the difference between companies that invest aggressively and those that do so more conservatively.}
 %%
 ffsuffix = '';
-ffdata = load(['F-F_Research_Data_5_Factors_2x3_plusMOM' ffsuffix]);
+ffdata = load(['.../rawdata/' 'F-F_Research_Data_5_Factors_2x3_plusMOM' ffsuffix]);
 
 %%
 switch ObsChoice
