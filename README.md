@@ -13,3 +13,8 @@ These codes are for Tony Wu's Mannaheim MMM master's thesis.
 
    * IPCA_empirical_GB.m,IPCA_empirical_GBGA.m are use for analyzing the performance of frestricted and unrestricted fundamental IPCA model, respectively.
    * stocklevelpca.m ,managedportPCA.m are for analysis of PCA model at stock and managed-portfolio level
+
+4. Observable_Factor_Regression.m, IPCA_empirical_GBGDFF.m
+
+   * Observable_Factor_Regression.m processes the analysis of FF3, FFC4, FF5, FF6, BY, HXZ, M4 models  without instrument
+   * IPCA_empirical_GBGDFF.m processes the analysis of restricted fundamental model,restricted fundamental model+FFC 6 factors, and instrumented FFC 6 factors  
