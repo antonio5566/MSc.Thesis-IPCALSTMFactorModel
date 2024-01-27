@@ -14,10 +14,11 @@ These codes are for Tony Wu's Mannaheim MMM master's thesis.
    * IPCA_empirical_GB.m,IPCA_empirical_GBGA.m are use for analyzing the performance of frestricted and unrestricted fundamental IPCA model, respectively.
    * stocklevelpca.m ,managedportPCA.m are for analysis of PCA model at stock and managed-portfolio level
 
-4. Observable_Factor_Regression.m, IPCA_empirical_GBGDFF.m
+4. Observable_Factor_Regression.m, IPCA_empirical_GBGDFF.m, IPCA_empirical_OtherFactors
 
    * Observable_Factor_Regression.m processes the analysis of FF3, FFC4, FF5, FF6, BY, HXZ, M4 models  without instrument
-   * IPCA_empirical_GBGDFF.m processes the analysis of restricted fundamental model,restricted fundamental model+FFC 6 factors, and instrumented FFC 6 factors  
+   * IPCA_empirical_GBGDFF.m processes the analysis of restricted fundamental model,restricted fundamental model+FFC 6 factors, and instrumented FFC 6 factors
+   * IPCA_empirical_OtherFactors.m processes the analysis of restricted fundamental model,restricted fundamental model+other obserable factors, and instrumented observable factors  
 
 5. fred-database_code/ fredfactorprocess.m, Welchcode.m, LASSOselection.m
 
@@ -29,3 +30,9 @@ These codes are for Tony Wu's Mannaheim MMM master's thesis.
    * RNNLSTM.ipynb constructs Recurrent Neural Network with LSTM cell. The time steps could be modified under 'stepin, stepout'. It provides the extracted hidden state from last timestep and plots the comparison between the extracted hidden state to NBER recession date
    * modelfit.ipynb plots the contribution of each macroeconoic features within the neural network
 
+7. IPCA_empirical_puremacro.m, IPCA_empiricla_GBGDmacro.m
+
+   * IPCA_empirical_puremacro. reports the performance of macroeconomic features selected by LASSO regression w/o passing RNN
+   * IPCA_empiricla_GBGDmacro.m reports the performance of the last hidden state
+
+8. 
