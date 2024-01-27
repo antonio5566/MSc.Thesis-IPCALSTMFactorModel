@@ -9,4 +9,7 @@ These codes are for Tony Wu's Mannaheim MMM master's thesis.
 
    > datamaker.m prepares data for further analysis, it can be customized in the option panel. IPCA_empirical_datacall_FNW36 is served as a functon in datamaker
 
-3. IPCA_empirical_GB,IPCA_empirical_GBGA,IPCA
+3. IPCA_empirical_GB.m,IPCA_empirical_GBGA.m ,stocklevelpca.m ,managedportPCA.m
+
+   >IPCA_empirical_GB.m,IPCA_empirical_GBGA.m are use for analyzing the performance of frestricted and unrestricted fundamental IPCA model, respectively.
+   >stocklevelpca.m ,managedportPCA.m are for analysis of PCA model at stock and managed-portfolio level
