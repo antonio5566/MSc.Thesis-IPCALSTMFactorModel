@@ -49,7 +49,7 @@ These codes are for Tony Wu's Mannaheim MMM master's thesis.
   * IPCA_empirical_GB_outofsample.m, ,IPCA_empirical_GBGDmacro_outofsample.m generated the out-of-sample performance (fits and Sharpe ratio) of fundamental and extended model
   * tanpf.m, tanpfnext.m are served as function for outofsample estimation
 
-11.Table_OutofSample_Fits.m, Table_OutofSamplemacro_Fits.m
+11. Table_OutofSample_Fits.m, Table_OutofSamplemacro_Fits.m
 
   * Table_OutofSample_Fits.m, Table_OutofSamplemacro_Fits.m generate tables for out-of-sample performance of fundamental, extended IPCA, and FFC6 model
 
