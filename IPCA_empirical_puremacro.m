@@ -25,7 +25,7 @@ end
 
 %% macro
 
-csv_in='macro_1.csv'; %2_16_6
+csv_in='fred-database_code/macro_1.csv'; %2_16_6
 macro_factor=importdata(csv_in);
 date_m=macro_factor.data(:,1);
 mfactors=macro_factor.data(:,2:end)
