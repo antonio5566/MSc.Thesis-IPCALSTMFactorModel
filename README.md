@@ -23,7 +23,7 @@ These codes are for Tony Wu's Mannaheim MMM master's thesis.
 5. fred-database_code/ fredfactorprocess.m, Welchcode.m, LASSOselection.m
 
    * fredfactorprocess.m, Welchcode.m prepare the stationary macroeconomics features, including FRED-MD data '2015-01.csv / 2023-09.csv' , Welch data '2020Welch', and median of firm characteristics
-   * LASSOselection.m applies LASSO regression for macroeconomic factor selection, the selected features are saved under 'macro_1.csv'
+   * LASSOselection.m applies LASSO regression for macroeconomic factor selection, the selected features are saved under 'macro_1.csv'. (macro.csv containss the series of macrofeattures input in RNN without passsing through LASSO selection)
 
 6. fred-database_code/ RNNLSTM.ipynb, modelfit.ipynb
 
